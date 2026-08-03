@@ -1,0 +1,45 @@
+# environment
+.env
+.env.*
+!.env.example
+
+# dependencies
+**/node_modules/
+
+# build output
+**/.next/
+**/out/
+**/dist/
+**/coverage/
+**/.nyc_output/
+backend/.jest-cache/
+
+# logs and temp files
+*.log
+logs/
+*.pid
+*.pid.lock
+*.seed
+.temp
+.tmp
+*.tsbuildinfo
+
+# package manager artifacts
+.pnp.*
+.yarn/
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# misc
+*.pem
+.vercel/
